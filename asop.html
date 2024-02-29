@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fleet Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="fleet-manager">
+        <div class="header">
+            <div class="title">Fleet Manager</div>
+        </div>
+        <div class="ship-list">
+            <div class="ship-item" onclick="toggleAttributes(this)">
+                <div class="ship-info">
+                    <div class="attribute">
+                        <div class="attribute-title">Vehicle Name:</div>
+                        <div class="attribute-value">Origin 100i</div>
+                    </div>
+                    <div class="attribute status">
+                        <div class="attribute-title">Stored/Not Stored:</div>
+                        <div class="attribute-value stored">Stored</div>
+                    </div>
+                    <div class="attribute">
+                        <div class="attribute-title">Location:</div>
+                        <div class="attribute-value">Willaville</div>
+                    </div>
+                    <div class="attribute">
+                        <div class="attribute-title">Focus:</div>
+                        <div class="attribute-value">Luxury</div>
+                    </div>
+                    <div class="attribute">
+                        <div class="attribute-title">Cargo Size:</div>
+                        <div class="attribute-value">Medium</div>
+                    </div>
+                    <div class="attribute">
+                        <div class="attribute-title">Crew Size:</div>
+                        <div class="attribute-value">2</div>
+                    </div>
+                    <div class="attribute action">
+                        <div class="attribute-title">Action:</div>
+                        <div class="attribute-value delivered" onclick="toggleAction(this)">Delivered</div>
+                    </div>
+                </div>
+            </div>
+            <div class="ship-item" onclick="toggleAttributes(this)">
+                <div class="ship-info">
+                    <div class="attribute">
+                        <div class="attribute-title">Vehicle Name:</div>
+                        <div class="attribute-value">Constillation Adramada Elite</div>
+                    </div>
+                    <div class="attribute status">
+                        <div class="attribute-title">Stored/Not Stored:</div>
+                        <div class="attribute-value stored">Stored</div>
+                    </div>
+                    <div class="attribute">
+                        <div class="attribute-title">Location:</div>
+                        <div class="attribute-value">Willaville</div>
+                    </div>
+                    <div class="attribute">
+                        <div class="attribute-title">Focus:</div>
+                        <div class="attribute-value">Freight</div>
+                    </div>
+                    <div class="attribute">
+                        <div class="attribute-title">Cargo Size:</div>
+                        <div class="attribute-value">Large</div>
+                    </div>
+                    <div class="attribute">
+                        <div class="attribute-title">Crew Size:</div>
+                        <div class="attribute-value">8</div>
+                    </div>
+                    <div class="attribute action">
+                        <div class="attribute-title">Action:</div>
+                        <div class="attribute-value delivered" onclick="toggleAction(this)">Delivered</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more ship-items as needed -->
+        </div>
+    </div>
+
+    <script>
+        function toggleAttributes(element) {
+            var storedElement = element.querySelector('.status .attribute-value');
+            var actionElement = element.querySelector('.action .attribute-value');
+            
+            if (storedElement.textContent === 'Stored') {
+                storedElement.textContent = 'Not Stored';
+                storedElement.classList.remove('stored');
+                storedElement.classList.add('not-stored');
+            } else {
+                storedElement.textContent = 'Stored';
+                storedElement.classList.remove('not-stored');
+                storedElement.classList.add('stored');
+            }
+
+            if (actionElement.textContent === 'Delivered') {
+                actionElement.textContent = 'Retrieved';
+                actionElement.classList.remove('delivered');
+                actionElement.classList.add('retrieved');
+                playSound('retrieved.mp3');
+            } else if (actionElement.textContent === 'Retrieved') {
+                actionElement.textContent = 'Delivered';
+                actionElement.classList.remove('retrieved');
+                actionElement.classList.add('delivered');
+                playSound('delivered.mp3');
+            }
+        }
+
+        function playSound(soundFile) {
+            var audio = new Audio(soundFile);
+            audio.play();
+        }
+    </script>
+
+</body>
+
+</html>

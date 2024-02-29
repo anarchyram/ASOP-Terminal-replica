@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="background.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title16">background</title>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     inkscape:zoom="0.51670355"
+     inkscape:cx="1093.4703"
+     inkscape:cy="777.0413"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="514"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer3" />
+  <defs
+     id="defs1">
+    <rect
+       x="199.80043"
+       y="147.79758"
+       width="436.55025"
+       height="84.846757"
+       id="rect15" />
+    <linearGradient
+       id="linearGradient14"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#ebb400;stop-opacity:1;"
+         offset="0"
+         id="stop14" />
+      <stop
+         style="stop-color:#ffd442;stop-opacity:1;"
+         offset="1"
+         id="stop15" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient14"
+       id="linearGradient15"
+       x1="52.882095"
+       y1="575.45389"
+       x2="1856.26"
+       y2="575.45389"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     style="display:inline;fill:url(#linearGradient15);fill-opacity:1;fill-rule:nonzero">
+    <path
+       style="fill:url(#linearGradient15);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:20;stroke-dasharray:none;stroke-opacity:1"
+       d="m 105.3742,79.372773 -36.949396,61.582327 -2.736992,105.37419 24.632929,20.52745 -1.368496,659.61511 -24.632929,21.89593 -1.368496,99.90022 32.843906,24.6329 1699.672174,-2.737 43.7918,-23.2644 1.3685,-84.84676 -32.8439,-38.31789 6.8425,-647.29864 31.4754,-34.2124 -5.474,-135.48112 -36.9494,-28.738413 z"
+       id="path13"
+       inkscape:label="path13" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="background banner"
+     style="display:inline">
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       d="m 97.163222,75.267284 1709.251578,8.210977 39.6864,32.843909 v 120.42765 l -37.6336,37.63364 H 94.42623 L 65.345688,245.30292 v -112.5588 z"
+       id="path15" />
+    <path
+       style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#eab400;stroke-width:2.99604;stroke-dasharray:none;stroke-opacity:1"
+       d="M 99.900214,267.54099 H 1801.9168"
+       id="path16" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-opacity:1;fill-opacity:1;stroke-width:20;stroke-dasharray:none"
+       d="m 64.319316,135.48111 v 105.3742 l 26.001425,21.89594 v 659.61511 l -28.738417,28.73842 v 90.32072 l 36.949394,28.7384 H 1794.0984 l 42.4233,-24.6329 v -87.58374 l -24.6329,-32.84391 V 276.43621 l 31.4754,-31.47541 V 113.58517 L 1805.7306,75.951532 H 105.3742 Z"
+       id="path1" />
+  </g>
+  <g
+     id="layer3"
+     inkscape:label="TITLE"
+     style="display:inline"
+     inkscape:groupmode="layer">
+    <rect
+       style="fill:#726627;fill-opacity:1;fill-rule:nonzero;stroke:#eab400;stroke-width:3;stroke-dasharray:none;stroke-opacity:1"
+       id="rect16"
+       width="1693.4275"
+       height="181.9225"
+       x="104.44402"
+       y="280.62512" />
+    <rect
+       style="fill:#726627;fill-opacity:1;fill-rule:nonzero;stroke:#eab400;stroke-width:3;stroke-dasharray:none;stroke-opacity:1"
+       id="rect16-1"
+       width="1693.4275"
+       height="181.9225"
+       x="105.30176"
+       y="474.582" />
+    <rect
+       style="fill:#726627;fill-opacity:1;fill-rule:nonzero;stroke:#eab400;stroke-width:3;stroke-dasharray:none;stroke-opacity:1"
+       id="rect16-6"
+       width="1693.4275"
+       height="181.9225"
+       x="103.77147"
+       y="668.09473" />
+    <rect
+       style="fill:#726627;fill-opacity:1;fill-rule:nonzero;stroke:#eab400;stroke-width:3;stroke-dasharray:none;stroke-opacity:1"
+       id="rect16-64"
+       width="1693.4275"
+       height="181.9225"
+       x="103.26279"
+       y="863.03888" />
+    <text
+       xml:space="preserve"
+       style="font-size:85.3333px;display:inline;fill:#f5bc00;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       x="232.78188"
+       y="188.38286"
+       id="text15"><tspan
+         sodipodi:role="line"
+         id="tspan15"
+         x="232.78188"
+         y="188.38286"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.3333px;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none">Fleet Manager</tspan></text>
+  </g>
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>background</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
